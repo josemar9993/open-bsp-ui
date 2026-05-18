@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       anon_key:
-        description: 'Supabase Anon Key (obter em: supabase.com/dashboard/project/saqpggodapejglmxhbpp/settings/api)'
+        description: 'Supabase Anon Key (obter em: supabase.com/dashboard > Settings > API)'
         required: true
   push:
     branches: [main]
